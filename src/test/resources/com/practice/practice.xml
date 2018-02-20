@@ -3,7 +3,7 @@
 <suite name="UsZip_Suite" parallel="methods" thread-count="1">
 	<test name="UsZip">
 		<packages>
-			<package name="com.practice.*"/>
+			<package name="com.orasi.api.*"/>
 		</packages>
 	</test>
 </suite>
