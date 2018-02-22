@@ -25,6 +25,6 @@ public class TestRegister {
 		
 		TestReporter.logAPI(response.getStatusCode() == 201, "Validating the Correct Response", response);
 		
-		TestReporter.softAssertTrue(data.getError() == "", "Validating the Token ID");
+		TestReporter.softAssertTrue(data.getToken() == "QpwL5tke4Pnpja7X", "Validating the Token ID");
 	}
 }
