@@ -2,6 +2,7 @@ package com.Reqres.User;
 
 import com.Reqres.RestReqres;
 import com.Reqres.User.object.CreateUserData;
+import com.Reqres.User.object.UserDelayData;
 import com.orasi.api.restServices.RestResponse;
 import com.orasi.api.restServices.RestService;
 import com.orasi.api.restServices.Headers.HeaderType;
@@ -21,5 +22,9 @@ public class User {
 	
 	public RestResponse createNewUser(CreateUserData create) {
 		return restService.sendPostRequest(path, HeaderType.JSON, RestService.getJsonFromObject(create));
+	}
+	
+	public RestResponse createDelay() {
+		return restService.sendGetRequest(path + "?delay=3", HeaderType.JSON);
 	}
 }
