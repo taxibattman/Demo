@@ -600,7 +600,7 @@ public abstract class SoapService{
 		buffer.append("<td style='width: 100px; color: black; text-align: center;'><b>Status</b></td></tr>");
 		for (int x = 0; x < scenarios.length; x++) {
 			if (!validateNodeValueByXPath(doc, scenarios[x][0].toString(),
-					scenarios[x][1].toString())) {
+					scenarios[x][1].toString())) {				
 				status = false;
 			}
 		}

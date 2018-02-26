@@ -1,0 +1,16 @@
+Main,Xpath,Value 
+,/NewDataSet/Table[1]/Town,[A-Za-z].*
+,/NewDataSet/Table[1]/County,[A-Za-z].*
+,/NewDataSet/Table[1]/PostCode,[A-Za-z]{2}[0-9]+
+,/NewDataSet/Table[2]/Town,[A-Za-z].*
+,/NewDataSet/Table[2]/County,[A-Za-z].*
+,/NewDataSet/Table[2]/PostCode,[A-Za-z]{2}[0-9]+
+,/NewDataSet/Table[3]/Town,[A-Za-z].*
+,/NewDataSet/Table[3]/County,[A-Za-z].*
+,/NewDataSet/Table[3]/PostCode,[A-Za-z]{2}[0-9]+
+,/NewDataSet/Table[4]/Town,[A-Za-z].*
+,/NewDataSet/Table[4]/County,[A-Za-z].*
+,/NewDataSet/Table[4]/PostCode,[A-Za-z]{2}[0-9]+
+,/NewDataSet/Table[5]/Town,[A-Za-z].*
+,/NewDataSet/Table[5]/County,[A-Za-z].*
+,/NewDataSet/Table[5]/PostCode,[A-Za-z]{2}[0-9]+

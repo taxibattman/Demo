@@ -1,0 +1,3 @@
+Main,Xpath,Value 
+,/NewDataSet/Table[1]/Location,[A-Za-z].*
+,/NewDataSet/Table[1]/PostCode,[A-Za-z].*
